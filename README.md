@@ -6,7 +6,7 @@
 r.e.m. beauty
 </h1>
 
-<p align="center">r.e.m. beauty recreado por Stefano Aragoni.</p>
+<p align="center">Stefano Aragoni</p>
 
 <hr />
 
