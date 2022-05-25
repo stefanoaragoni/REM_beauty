@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-  <a href="https://juanelcaballo.club/20261/rembeauty/"><img src="https://cdn.shopify.com/s/files/1/0581/3849/3094/files/rem-beauty-logo.png?v=1478983358546691362" alt="r.e.m. beauty" width=150"></a>
+  <a href="https://juanelcaballo.club/20261/rembeauty/"><img src="https://cdn.shopify.com/s/files/1/0581/3849/3094/files/rem-ch2-launch-metallic-gel-eyeshadow-banner-1440x1440_750x.png?v=1647450430" alt="r.e.m. beauty" width=150"></a>
 <br>
 <br>
 r.e.m. beauty
