@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  padding-top: 10px;
+
+  cursor: pointer;
+  }
+  
+.div1 { position: relative; grid-area: 1 / 1 / 2 / 2; }
+.div2 { position: relative; grid-area: 2 / 1 / 3 / 2; }
+.div3 { position: relative; grid-area: 1 / 2 / 3 / 3; }
+.div4 { position: relative;  grid-area: 1 / 3 / 2 / 4; }
+.div5 { position: relative;  grid-area: 2 / 3 / 3 / 4; }
+.div6 { position: relative;  grid-area: 1 / 4 / 3 / 5; }
+
+.imgSmallTop{
+  width: 250px;
+  height: 250px;
+  object-fit:cover;
+}
+
+.imgSmallBottom{
+  width: 250px;
+  height: 250px;
+  object-fit:cover;
+}
+
+.imgBig{
+  width: 500px;
+  height: 500px;
+  object-fit:cover;
+}
+
+.imgBig2{
+  width: 400px;
+  height: 500px;
+  object-fit:cover;
+}
+
+.IG{
+  position:absolute;
+  top:10px;
+  right:10px;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('../static/space-mono-regular.woff2') format('woff2'),
+    url('../static/space-mono-regular.woff') format('woff'),
+    url('../static/space-mono-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url('//cdn.shopify.com/s/files/1/0581/3849/3094/t/67/assets/space-mono-bold.woff2?v=15747563320650778663') format('woff2'),
+    url('//cdn.shopify.com/s/files/1/0581/3849/3094/t/67/assets/space-mono-bold.woff?v=478857183106484192') format('woff'),
+    url('//cdn.shopify.com/s/files/1/0581/3849/3094/t/67/assets/space-mono-bold.ttf?v=2028313046384385381') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('//cdn.shopify.com/s/files/1/0581/3849/3094/t/67/assets/roboto-regular.woff2?v=15289017066379288601') format('woff2'),
+    url('//cdn.shopify.com/s/files/1/0581/3849/3094/t/67/assets/roboto-regular.woff?v=17028841955973216498') format('woff'),
+    url('//cdn.shopify.com/s/files/1/0581/3849/3094/t/67/assets/roboto-regular.ttf?v=13566850237589757060') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url('//cdn.shopify.com/s/files/1/0581/3849/3094/t/67/assets/roboto-bold.woff2?v=7898231667737170342') format('woff2'),
+    url('//cdn.shopify.com/s/files/1/0581/3849/3094/t/67/assets/roboto-bold.woff?v=10694416134688216251') format('woff'),
+    url('//cdn.shopify.com/s/files/1/0581/3849/3094/t/67/assets/roboto-bold.ttf?v=18279526634965034276') format('truetype');
+}

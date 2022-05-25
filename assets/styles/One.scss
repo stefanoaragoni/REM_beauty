@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.coverIMG {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.coverIMG img {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.OneC1{
+  position: relative;
+  width: 100%;
+}
+
+.flexText{
+  cursor: default;
+
+  letter-spacing: 0.01em;
+  color: #202020;
+  outline: none;
+  box-shadow: none;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  position: absolute;
+  bottom: 0px;
+
+  display: flex;
+  align-items: flex-end;
+
+  width: calc(100% - 80px);
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+
+  -webkit-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.textContainer{
+  cursor: default;
+  flex: 1;
+  flex-grow: 1;
+  flex-basis: 0;
+
+  color: #202020;
+  letter-spacing: 0.01em;
+  outline: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-sizing: border-box;
+}
+
+.title h1{
+  cursor: default;
+
+  outline: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  color: #202020;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Space Mono', monospace;
+  font-weight: normal;
+  text-transform: lowercase;
+  letter-spacing: -0.015em;
+  font-size: 34px;
+  line-height: 41px;
+  margin-bottom: 13px;
+  transform: translate(0px, 0px);
+  opacity: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-sizing: border-box;
+}
+
+.text{
+  cursor: default;
+
+  color: #202020;
+  outline: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.01em;
+  font-size: 14px;
+  line-height: 24px;
+  transform: translate(0px, 0px);
+  opacity: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-sizing: border-box;
+}
+
+.buttonContainer{
+  cursor: default;
+  flex: 2;
+  flex-grow: 1;
+  flex-basis: 0;  
+}
+
+.newFlex{
+  direction:ltr;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonText{
+  cursor: pointer;
+  outline: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+
+  text-decoration: none;
+  font-family: 'Space Mono', monospace;
+  font-weight: normal;
+  text-transform: lowercase;
+  letter-spacing: -0.015em;
+  font-size: 16px;
+  line-height: 24px;
+  min-height: 48px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  
+  display: inline-flex;
+  justify-content: center;
+  transition: all 300ms;
+  min-width: 215px;
+  border: 1px solid #e4e3e2;
+  margin-bottom: 0;
+  color: #fff;
+  background-color: #202020;
+  border-color: #202020;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('../static/space-mono-regular.woff2') format('woff2'),
+    url('../static/space-mono-regular.woff') format('woff'),
+    url('../static/space-mono-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url('//cdn.shopify.com/s/files/1/0581/3849/3094/t/67/assets/space-mono-bold.woff2?v=15747563320650778663') format('woff2'),
+    url('//cdn.shopify.com/s/files/1/0581/3849/3094/t/67/assets/space-mono-bold.woff?v=478857183106484192') format('woff'),
+    url('//cdn.shopify.com/s/files/1/0581/3849/3094/t/67/assets/space-mono-bold.ttf?v=2028313046384385381') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('//cdn.shopify.com/s/files/1/0581/3849/3094/t/67/assets/roboto-regular.woff2?v=15289017066379288601') format('woff2'),
+    url('//cdn.shopify.com/s/files/1/0581/3849/3094/t/67/assets/roboto-regular.woff?v=17028841955973216498') format('woff'),
+    url('//cdn.shopify.com/s/files/1/0581/3849/3094/t/67/assets/roboto-regular.ttf?v=13566850237589757060') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url('//cdn.shopify.com/s/files/1/0581/3849/3094/t/67/assets/roboto-bold.woff2?v=7898231667737170342') format('woff2'),
+    url('//cdn.shopify.com/s/files/1/0581/3849/3094/t/67/assets/roboto-bold.woff?v=10694416134688216251') format('woff'),
+    url('//cdn.shopify.com/s/files/1/0581/3849/3094/t/67/assets/roboto-bold.ttf?v=18279526634965034276') format('truetype');
+}
